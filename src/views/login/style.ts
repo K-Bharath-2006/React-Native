@@ -1,0 +1,158 @@
+import {StyleSheet} from 'react-native';
+
+const styles = StyleSheet.create({
+  bg: {
+    flex: 1,
+    backgroundColor: '#EAF6F3',
+    alignItems: 'center',
+    paddingVertical: 22,
+  },
+  header: {
+    alignItems: 'center',
+    marginBottom: 10,
+    marginTop: 5,
+  },
+  logo: {
+    width: 90,
+    height: 90,
+    borderRadius: 20,
+    marginBottom: 12,
+  },
+  platformTitle: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#222',
+    marginBottom: 2,
+    textAlign: 'center',
+  },
+  platformSubtitle: {
+    fontSize: 13,
+    color: '#5F6F6E',
+    textAlign: 'center',
+    marginBottom: 2,
+  },
+  card: {
+    backgroundColor: '#fff',
+    width: 320,
+    borderRadius: 17,
+    paddingVertical: 42,
+    paddingHorizontal: 22,
+    alignItems: 'stretch',
+    shadowColor: '#000',
+    shadowOpacity: 0.045,
+    shadowRadius: 10,
+    elevation: 2,
+    marginBottom: 20,
+  },
+  languageRow: {
+    flexDirection: 'row',
+    justifyContent: 'flex-end',
+    alignItems: 'center',
+    marginBottom: 18,
+  },
+  languagePicker: {
+    width: 135,
+    height: 36,
+    color: '#222',
+    backgroundColor: '#F8FAFA',
+    borderWidth: 1,
+    borderRadius: 8,
+    borderColor: '#E6E8EE',
+  },
+  
+  label: {
+    color: '#495154',
+    fontSize: 13,
+    marginTop: 7,
+    marginBottom: 2,
+  },
+  input: {
+    height: 40,
+    borderWidth: 1,
+    borderColor: '#BFCEDB',
+    borderRadius: 8,
+    paddingHorizontal: 14,
+    backgroundColor: '#FBFBFB',
+    fontSize: 13,
+    marginBottom: 7,
+    color: '#1C2B30',
+  },
+  forgotPasswordBtn: {
+    alignSelf: 'flex-end',
+    marginVertical: 4,
+  },
+  forgotPasswordText: {
+    color: '#5695E6',
+    fontSize: 12,
+    textDecorationLine: 'underline',
+  },
+  adventureBtn: {
+    backgroundColor: '#2562AC',
+    borderRadius: 10,
+    marginTop: 16,
+    marginBottom: 28,
+    paddingVertical: 12,
+    alignItems: 'center',
+  },
+  adventureBtnText: {
+    color: '#fff',
+    fontWeight: '600',
+    fontSize: 16,
+    letterSpacing: 0.1,
+  },
+  sepRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginVertical: 9,
+  },
+  sepLine: {
+    flex: 1,
+    height: 1,
+    backgroundColor: '#E1E4EA',
+  },
+  sepText: {
+    color: '#7A898C',
+    fontSize: 13,
+    marginHorizontal: 10,
+  },
+  explorerBtn: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    borderWidth: 1,
+    borderColor: '#E5E9EF',
+    borderRadius: 9,
+    paddingVertical: 9,
+    paddingHorizontal: 18,
+    backgroundColor: '#F9FAFE',
+    alignSelf: 'center',
+    marginTop: 8,
+  },
+  explorerIcon: {
+    marginRight: 7,
+  },
+  explorerText: {
+    fontSize: 13,
+    color: '#2562AC',
+    fontWeight: '600',
+  },
+  xpBox: {
+    marginLeft: 10,
+    backgroundColor: '#D1EEFF',
+    paddingHorizontal: 7,
+    paddingVertical: 2,
+    borderRadius: 11,
+  },
+  xpText: {
+    color: '#2562AC',
+    fontWeight: 'bold',
+    fontSize: 12,
+  },
+  footerText: {
+    color: '#90A1A3',
+    fontSize: 13,
+    marginTop: 12,
+    textAlign: 'center',
+  },
+});
+
+export default styles;
